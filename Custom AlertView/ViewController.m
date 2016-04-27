@@ -96,7 +96,7 @@
         Ivar var = property[i];
         const char *name = ivar_getName(var);
         const char *type = ivar_getTypeEncoding(var);
-        NSLog(@"%s ================ %s",name,type);
+        NSLog(@"%s =============== %s",name,type);
     }
 
     Ivar message = property[2];
